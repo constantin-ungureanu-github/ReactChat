@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 'use strict';
 
 var MessagesList = React.createClass({
@@ -13,10 +11,8 @@ var MessagesList = React.createClass({
     var container = this.refs.messageContainer.getDOMNode();
     messages.push(message);
     this.setState({ messages: messages });
-    // Smart scrolling - when the user is
-    // scrolled a little we don't want to return him back
-    if (container.scrollHeight -
-        (container.scrollTop + container.offsetHeight) >= 50) {
+
+    if (container.scrollHeight - (container.scrollTop + container.offsetHeight) >= 50) {
       this.scrolled = true;
     } else {
       this.scrolled = false;
@@ -48,4 +44,3 @@ var MessagesList = React.createClass({
     );
   }
 });
-

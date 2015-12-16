@@ -1,23 +1,14 @@
 {
-  "name": "react-peerjs",
-  "version": "0.0.0",
+  "name": "react",
+  "version": "1.0.0",
   "description": "ReactJS chat with PeerJS",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "webrtc",
-    "nodejs",
-    "react",
-    "javascript",
-    "awesome"
-  ],
-  "author": "mgechev",
-  "license": "MIT",
+  "main": "server.js",
   "dependencies": {
-    "express": "~4.8.4",
-    "peer": "~0.2.6",
-    "socket.io": "~1.0.6"
+    "express": "4.13.3",
+    "peer": "0.2.8",
+    "socket.io": "1.3.7"
+  },
+  "scripts": {
+    "start": "node server.js"
   }
 }

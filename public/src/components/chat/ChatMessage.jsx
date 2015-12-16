@@ -1,4 +1,3 @@
-/** @jsx React.DOM */
 'use strict';
 
 var ChatMessage = React.createClass({
@@ -18,4 +17,3 @@ var ChatMessage = React.createClass({
     );
   }
 });
-

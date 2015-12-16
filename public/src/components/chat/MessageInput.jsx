@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 'use strict';
 
 var MessageInput = React.createClass({
@@ -28,4 +26,3 @@ var MessageInput = React.createClass({
     );
   }
 });
-

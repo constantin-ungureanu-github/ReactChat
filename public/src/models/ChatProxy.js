@@ -1,4 +1,3 @@
-/* global EventEmitter, Topics, io, Peer */
 'use strict';
 
 function ChatProxy() {

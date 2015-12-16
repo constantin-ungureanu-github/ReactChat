@@ -1,5 +1,3 @@
-/** @jsx React.DOM */
-
 'use strict';
 
 var ChatBox = React.createClass({
@@ -63,4 +61,3 @@ var ChatBox = React.createClass({
     );
   }
 });
-
